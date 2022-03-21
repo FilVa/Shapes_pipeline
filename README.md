@@ -4,7 +4,10 @@ Code implementation for pipeline in paper:
 F. Valdeira, R. Ferreira, A. Micheletti and C. Soares, "From Noisy Point Clouds to Complete Ear Shapes: Unsupervised Pipeline," in IEEE Access, vol. 9, pp. 127720-127734, 2021, 
 https://ieeexplore.ieee.org/document/9534754?source=authoralert
 
-# Run code
+# Preparation
+The code for BCPD can be retrieved from the authors github page at https://github.com/ohirose/bcpd#point-set-registration. It should be placed in the folder '/bcpd/bcpd_code/'.
+
+# Run the code
 
 1. In folder 'Data/Original_data' place the 3D mesh files you wish to submit to the pipeline process. Files shoud be named with ID numbers of each shape.
 2. In folder 'Data/Template' place the 3D mesh file you desire to use as template.
